@@ -1,0 +1,16 @@
+id,Name,Diet,Pulse,Time,Kind
+0,A,low fat,85,40,walking
+1,A,low fat,85,45,walking
+2,A,low fat,88,30,running
+3,B,no fat,90,10,walking
+4,B,no fat,92,15,rest
+5,B,no fat,93,30,rest
+6,C,low fat,97,15,rest
+7,C,low fat,97,15,rest
+8,C,low fat,94,30,walking
+9,D,low fat,80,10,walking
+10,D,low fat,82,15,rest
+11,D,low fat,83,30,rest
+12,E,no fat,91,10,rest
+13,E,low fat,92,15,running
+14,E,low fat,91,30,running
