@@ -1,0 +1,5 @@
+x = list(c(0,2), matrix(c(1:9),nrow=3,byrow=TRUE), list(5,6))
+print("List is = ")
+print(x)
+print("Convert List to Vectors = ")
+print(unlist(x))

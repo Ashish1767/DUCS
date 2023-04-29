@@ -1,0 +1,6 @@
+a=matrix(c(1:9),nrow=3,byrow=TRUE)
+print(a)
+ashi=as.data.frame(a)
+ash=as.list(ashi)
+print("after converting into list")
+print(ash)

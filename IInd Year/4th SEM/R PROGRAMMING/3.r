@@ -1,0 +1,21 @@
+x = list(g1 = 1:10, g2 = "R Programming", g3 = "HTML")
+print("List is = ")
+print(x)
+print(paste("Number of elements in List = ",length(x)))
+print("Setting g3 element to NULL")
+x[3] = list(NULL) 
+print("List is = ")
+print(x)
+x$g1 = x$g1 + 10
+print("After adding 10 to g1 = ")
+print(x$g1)
+print("First vector without third element = ")
+x$g1 = x$g1[-3]
+print(x$g1)
+print("After adding g4")
+x$g4 = "Python"
+print("List is = ")
+print(x)
+print("Length of the vector 'g1' and 'g2' = ")
+print(length(x$g1))
+print(length(x$g2))

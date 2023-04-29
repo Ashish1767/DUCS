@@ -1,0 +1,15 @@
+x<-c(4,3)
+sum(x)
+prod(x)
+print(length(x))
+print(mean(x))
+print(median(x))
+print(class(x))
+P<-c("g", "H", "u","g","j","G","j","u")
+l<-factor(P)
+print(l)
+print(nlevels(l))
+A<-25
+print(sqrt(A))
+print(nchar(A))
+
