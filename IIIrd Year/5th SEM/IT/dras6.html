@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Q6 </title>
+</head>
+<style type="text/css">
+	body{
+	background-color: lavender;
+	color: darkblue;
+	text-align: justify;
+	margin: 10%;
+	margin-left: 25%;
+	font-size: 200%;
+	font-family: garamond;}
+	label{
+		background-color: white;}
+	button{
+		background-color: white;
+		color: darkblue;
+		font-size: 125%;
+		font-family: garamond;}
+</style>
+<body>
+
+	<h3><u><i>MY PET </i></u></h3><br>
+	<form>
+		<label for="pname">Name : </label> &emsp;&emsp;&emsp;
+		<input type="text" id="name" name="name"><br>
+		<label for="pname">Age : </label> &emsp;&emsp;&emsp;&ensp;&nbsp;
+		<input type="number" id="age" name="age"><br>
+		<label for="pname">Weight : </label> &emsp;&emsp;&ensp;
+		<input type="number" id="weight" name="weight"><br>
+		<label for="pname">Type : </label> &emsp;&emsp;&emsp;&ensp;
+			<select id="type" name="type">
+				<option selected disabled hidden>---Select Option---</option>	
+				<option value="Cat"> Cat </option>	
+				<option value="Dog"> Dog </option>	
+				<option value="Bird"> Bird </option>	
+				<option value="Other"> Other </option>	
+			</select>
+		<br>
+		<label for="pname">What it likes : </label>&nbsp;
+		<textarea rows="3" cols="50" id="wil" name="wil"></textarea><br><br>
+		<button type="button" onclick="p()"> Submit </button>&nbsp;
+		<button type="reset"> Reset </button>
+	</form>
+    <script src="jquery-3.6.1.min.js"></script>
+    <script type="text/javascript" src="drasqns6.js"></script>
+</body>
+</html>

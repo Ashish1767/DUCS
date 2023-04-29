@@ -1,0 +1,28 @@
+{
+    "Pets": [
+        {
+            "Image": "https://cdn.shopify.com/s/files/1/0272/4770/6214/articles/when-do-puppies-start-walking.jpg?v=1593020034",
+            "name": "Puppy",
+            "age": "1 Year",
+            "weight": "26 lbs",
+            "type": "Dog",
+            "likes": "Biscuits"
+        },
+        {
+            "Image": "https://images.unsplash.com/photo-1595433707802-6b2626ef1c91?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&w=1000&q=80",
+            "name": "Kitty",
+            "age": "2 Year",
+            "weight": "9 lbs",
+            "type": "Cat",
+            "likes": "Milk"
+        },
+        {
+            "Image": "https://static.independent.co.uk/s3fs-public/thumbnails/image/2019/01/07/11/bunny-rabbit.jpg?width=1200",
+            "name": "Rio",
+            "age": "1 Year",
+            "weight": "15 lbs",
+            "type": "Rabbit",
+            "likes": "Carrot"
+        }
+    ]
+}

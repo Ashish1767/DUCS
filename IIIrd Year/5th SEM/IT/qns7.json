@@ -1,0 +1,38 @@
+{
+    "pets": 
+    [
+        {   "img":"IMG_20200812_145612.jpg",
+            "name":"tuffy",
+            "age":"12",
+            "weight":9,
+            "type":"Dog",
+            "breed":"pamerian",
+            "likes":"cheese and milk"
+        },
+        {
+            "img":"squirrel.jpg",
+            "name":"gillu",
+            "age":"5",
+            "weight":"0.5",
+            "type":"squirrel",
+            "breed":"natural",
+            "likes":"bread"
+        },
+        {   "img":"parrot.jpg",
+            "name":"mithoo",
+            "age":"6",
+            "weight":"1",
+            "type":"bird",
+            "breed":"forested",
+            "likes":"chilli"
+        },
+        {   "img":"cat.jpg",
+        "name":"kitty",
+        "age":"7",
+        "weight":9,
+        "type":"cat",
+        "breed":"syberian",
+        "likes":" milk"
+    }
+    ]
+}

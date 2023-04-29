@@ -1,0 +1,81 @@
+.data {
+    text-align: center;
+    padding: 50% 20%;
+    font-size: 30px;
+
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.heading {
+    background-color: black;
+    border-radius: 30px;
+}
+
+.heading h2 {
+    color: white;
+    text-align: center;
+    font-family: algerian;
+    font-size: 40px;
+    font-weight: lighter;
+}
+
+.container {
+    background-color: gray;
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    border-radius: 30px;
+
+
+}
+
+#left {
+
+    margin: 20px 0px 20px 0px;
+}
+
+#right {
+    margin: 20px 0px 20px 0px;
+}
+
+audio {
+    visibility: hidden;
+}
+
+#p1 {
+    font-family: Cursive;
+    font-size: 25px;
+}
+
+#p2 {
+    font-family: Cursive;
+    font-size: 25px;
+}
+
+#p3 {
+    font-family: Cursive;
+    font-size: 25px;
+}
+
+button {
+    font-size: 15px;
+    font-family: cursive;
+}
+
+button:hover {
+    background-color: lightgray
+}
+
+#right {
+    font-family: cursive;
+    font-size: 20px;
+
+
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>qns 6</title>
+    <style>
+        *{
+        background-color:darkkhaki;
+        }
+       
+        </style>
+</head>
+<body>
+    <h1>PET INFO.</h1>
+    <form >
+        <label for="petname">petname:</label>
+        <input type="text" id="petname" name="name"> <br><br>
+
+        <label for="petage">age:</label>
+        <input type="number" id="petage" name="age"> <br><br>
+
+        
+        <label for="petweight">weight:</label>
+        <input type="number" id="petweight" name="weight"> <br><br>
+
+        <label for="pettype">Type : </label> &emsp;&emsp;&emsp;&ensp;
+        <select id="pettype" name="pettype">
+            <option selected disabled hidden>---Select Option---</option>	
+            <option value="Cat"> Cat </option>	
+            <option value="Dog"> Dog </option>	
+            <option value="Bird"> Bird </option>	
+            <option value="Other"> Other </option>	
+        </select><br>
+
+       
+       <br> <label for="petbreed">breed:</label>
+        <input type="text" id="petbreed" name="petbreed"> <br><br>
+
+
+        <label for="petlikes">likes:</label>
+        <input type="text" id="petlikes" name="petlikes"> <br><br>
+
+
+    <button type="button" onclick="petfunc()">submit</button>
+    <button type="reset">reset</button>
+    </form>
+
+    
+    <script src="qns6.js"></script>
+
+</body>
+</html>

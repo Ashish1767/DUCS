@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<head>
+    <title>Document</title>
+</head>
+<style>
+    th,
+    td {
+        width: 150px;
+        height: 50px;
+        border: none;
+    }
+</style>
+
+<body>
+    <table>
+    </table>
+</body>
+<script>
+    var t = 2
+    var fontSize = 100
+    function createTable(x) {
+        table = document.querySelector("table")
+        tableRow = document.createElement("tr")
+        tableRow.className = "table"
+        table.appendChild(tableRow)
+
+        const randomBetween = (min, max) => min + Math.floor(Math.random() * (max - min + 1));
+        const r = randomBetween(0, 255);
+        const g = randomBetween(0, 255);
+        const b = randomBetween(0, 255);
+
+        for (let i = 1; i <= 10; i++) {
+            v = i * x
+            text = `${v}`
+            Tvalue = document.createElement("td")
+            Tvalue.innerHTML = text
+            tableRow.appendChild(Tvalue)
+            Tvalue.style.color = `rgb(${r},${g},${b})`
+            Tvalue.style.fontSize = `${fontSize}%`
+        }
+        fontSize += 10
+        if (x == 10) stopInterval()
+    }
+    i = setInterval(() => {
+        createTable(t)
+        t++;
+    }, 2000)
+
+    function stopInterval() {
+        clearInterval(i);
+    }
+
+</script>
+
+</html>
